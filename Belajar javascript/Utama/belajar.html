@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Java Script</title>
+    <link rel="stylesheet" href="belajar.css" />
+    <link rel="icon" href="LOGO JS.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="loat">
+          <p id="result"></p>
+          <button onclick="reloadQuiz()">Muat Ulang Halaman</button>
+        </div>
+        <ul>
+          <li><a href="#">Perkenalan</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#copy">Copyright</a></li>
+          <li><a href="#cal">Calculator</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>Perkenalan ku</h1>
+        <p>Nama saya adalah Aura, saya lahir pada tahun 2017</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="profil">
+        <div class="logo">
+          <img src="F:\Aura Auvarose\Belajar+isi Pemrograman\Py\images\logo_profil.jpg" alt="Logo saya" />
+        </div>
+        <h1>Aura Auvarose Endica Saebani</h1>
+      </div>
+      <div class="artikel">
+        <h1>Siapa Aura?</h1>
+        <p>Website ini untuk uji coba "belajar javascript aku" dan website ini bisa menjawab untuk pertanyaan yang akan di keluarkan dengan "alert"</p>
+      </div>
+      <h2>SIAPA AURA?</h2>
+      <p>Aura adalah seorang yang ingin sekali berubah dan tidak tau untuk apa aura berubah dan bagaiamana aura akan meruabh hal tersebut</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 🐺^_^
+      </p>
+      <h2>IMPIAN AURA</h2>
+      <p>Aura</p>
+    </main>
+
+    <section id="cal">
+      <h1>Calculator sederhana</h1>
+      <div class="int">
+        <input type="number" id="ang1" placeholder="Masukan Angka Pertama: " />
+        <input type="number" id="ang2" placeholder="Masukan Angka Kedua: " />
+      </div>
+
+      <div class="button_cal">
+        <button onclick="jumlah()">Penjumlahan</button>
+        <button onclick="kurang()">Pengurangan</button>
+        <button onclick="kali()">Perkalian</button>
+        <button onclick="bagi()">Pembagian</button>
+        <button onclick="akar()">Perakaran</button>
+      </div>
+      <p id="hasil"></p>
+    </section>
+
+    <footer>
+      <div class="footer-end">
+        <div class="cal-number">
+          <p>Aura</p>
+        </div>
+        <p id="copy">© auvarose</p>
+      </div>
+    </footer>
+
+    <!-- <script src="belajar.js"></script>s -->
+    <script src="calculator_belajar.js"></script>
+  </body>
+</html>

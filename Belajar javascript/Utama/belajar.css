@@ -1,0 +1,192 @@
+*,
+html {
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  background-color: #228d4c;
+  border-radius: 10px;
+  border: none;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar li {
+  font-size: 16px;
+  padding: 2px 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  transition: font-size 0.3s;
+}
+
+.navbar a:hover {
+  font-size: 17px;
+  border-bottom: 5px solid red;
+}
+
+.content h1 {
+  font-weight: bold;
+  font-family: cursive;
+  color: #070707;
+  filter: drop-shadow(10px 5px 5px #228d4c);
+  font-size: 36px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  margin: 0;
+  height: 30vh;
+}
+
+.loat button {
+  background-color: #228d4c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.loat button:hover {
+  background-color: #176533;
+}
+
+/* Main atau artikel */
+.profil {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+main {
+  color: rgb(0, 0, 0);
+  height: 900px;
+  margin-left: 10px;
+}
+
+/* Section */
+section {
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.int input {
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.int input:hover {
+  background-color: rgb(206, 180, 180);
+}
+
+.button_cal {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button_cal button {
+  background-color: #4caf50; /* Warna hijau */
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+.button_cal button:hover {
+  background-color: #45a049; /* Warna hijau lebih gelap saat dihover */
+}
+
+/* Footer */
+footer p {
+  color: #333; /* warna teks */
+  font-size: 14px; /* ukuran teks */
+  font-style: italic; /* gaya teks */
+  text-align: center; /* align teks ke tengah */
+  margin-top: 20px; /* jarak atas teks dari footer */
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 762px) {
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li {
+    margin: 0 5px;
+    padding: 0;
+  }
+
+  .navbar a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #228d4c;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 2px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .loat {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .int input {
+    flex-direction: column;
+    justify-items: auto;
+    margin-bottom: 10px;
+  }
+
+  .button_cal {
+    flex-direction: column;
+    justify-items: auto;
+    display: block;
+  }
+
+  .button_cal button {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="icon" href="/Belajar javascript/Utama/LOGO JS.png" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Nama Pengguna:</label>
+        <input type="text" id="username" required />
+        <label for="password">Sandi:</label>
+        <input type="password" id="password" required />
+        <button type="submit">Masuk</button>
+        <p>Belum punya akun? <a href="/Belajar javascript/Register/register.html">Daftar di sini</a></p>
+        <p id="error-msg"></p>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
